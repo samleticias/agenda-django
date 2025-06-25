@@ -11,6 +11,8 @@
       enctype="multipart/form-data"
     >
 
+        {% csrf_token %}
+
       <div class="form-content">
         <div class="form-group">
           <label for="id_first_name">LABEL</label>
