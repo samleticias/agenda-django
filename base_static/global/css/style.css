@@ -330,5 +330,5 @@ svg {
 }
 
 .btn-delete {
-  background: tomato;
+  background: tomato !important;
 }
