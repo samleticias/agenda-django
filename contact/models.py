@@ -7,7 +7,6 @@ from django.utils import timezone
 # email (email), created_date (date), description (text)
 # category (foreign key), show (boolean), picture (imagem)
 
-# Depois
 # owner (foreign key)
 
 class Category(models.Model):
