@@ -72,6 +72,7 @@ def login_view(request):
         }
     )
 
+@login_required(login_url='contact:login')
 def logout_view(request):
     auth.logout(request)
     return redirect('contact:login')
